@@ -2,6 +2,7 @@
 
 ## Overview
 This project presents a real-time alert enrichment system integrating Wazuh SIEM with a Large Language Model (LLaMA 3) to improve Security Operations Centre (SOC) triage efficiency.
+
 ---
 
 ## Architecture
@@ -9,6 +10,7 @@ The system processes alerts from Wazuh and enriches them using a Python-based mi
 
 **Pipeline Flow:**
 Endpoints → Wazuh Agents → Wazuh Manager → alerts.json → Python Bridge → LLaMA 3 → Enriched Alerts
+
 ---
 
 ## Features
@@ -32,7 +34,6 @@ Endpoints → Wazuh Agents → Wazuh Manager → alerts.json → Python Bridge �
   - `wazuh_llm_bridge.py` - Core enrichment pipeline
   - `latency_analysis.py` - Latency evaluation
   - Sample alerts (raw and enriched)
-
 
    ---
 
