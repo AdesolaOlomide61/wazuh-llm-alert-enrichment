@@ -6,10 +6,10 @@ This project presents a post-detection contextual alert enrichment framework int
 ---
 
 ## Architecture
-The system processes alerts from Wazuh and enriches them using a Python-based middleware and LLM.
+The framework operates as a post-detection enrichment layer alongside Wazuh. Wazuh remains responsible for monitoring endpoints, applying its rule-based detection logic, and generating security alerts. A Python-based bridge monitors the Wazuh alert stream and applies the configured alert-selection criteria before submitting eligible alerts to the locally deployed LLaMA 3 model through Ollama.
 
 **Pipeline Flow:**
-Endpoints → Wazuh Agents → Wazuh Manager → alerts.json → Python Bridge → LLaMA 3 → Enriched Alerts
+Endpoints → Wazuh Agents → Wazuh Manager → alerts.json → Alert Selection → Python Bridge → Ollama/LLaMA 3 → Contextual Enrichment
 
 ---
 
