@@ -15,8 +15,8 @@ Endpoints → Wazuh Agents → Wazuh Manager → alerts.json → Python Bridge �
 
 ## Features
 - Post-detection contextual alert enrichment
-- MITRE ATT&CK mapping
-- Indicator of Compromise (IOC) extraction
+- MITRE ATT&CK contextual mapping were generated
+- Identification of relevant Indicators of Compromise (IOCs)
 - Actionable remediation recommendations
 - Latency tracking analysis
 
