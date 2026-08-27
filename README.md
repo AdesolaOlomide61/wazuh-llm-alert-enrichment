@@ -1,7 +1,7 @@
 # LLM-Enhanced Wazuh SIEM Alert Enrichment
 
 ## Overview
-This project presents a real-time alert enrichment system integrating Wazuh SIEM with a Large Language Model (LLaMA 3) to improve Security Operations Centre (SOC) triage efficiency.
+This project presents a post-detection contextual alert enrichment system integrating Wazuh SIEM with a Large Language Model (LLaMA 3) to improve Security Operations Centre (SOC) triage efficiency.
 
 ---
 
@@ -14,7 +14,7 @@ Endpoints → Wazuh Agents → Wazuh Manager → alerts.json → Python Bridge �
 ---
 
 ## Features
-- Real-time alert enrichment
+- Post-detection contextual alert enrichment
 - MITRE ATT&CK mapping
 - Indicator of Compromise (IOC) extraction
 - Actionable remediation recommendations
