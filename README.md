@@ -38,7 +38,7 @@ Endpoints → Wazuh Agents → Wazuh Manager → alerts.json → Python Bridge �
    ---
 
   ## Reproducibility
-  This repository provides implementation, including scripts, configuration, and experimental artifacts, used in the research paper.
+  This repository provides implementation, including scripts, configuration, and experimental artifacts, used in the associated research paper.
 
   ---
 
