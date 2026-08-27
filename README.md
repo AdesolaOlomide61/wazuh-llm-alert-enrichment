@@ -1,7 +1,7 @@
 # LLM-Enhanced Wazuh SIEM Alert Enrichment
 
 ## Overview
-This project presents a post-detection contextual alert enrichment system integrating Wazuh SIEM with a Large Language Model (LLaMA 3) to improve Security Operations Centre (SOC) triage efficiency.
+This project presents a post-detection contextual alert enrichment framework integrating Wazuh SIEM with a locally deployed Large Language Model (LLaMA 3) to provide additional contextual information for Security Operations Centre (SOC) alert triage. Wazuh remains responsible for rule-based detection and alert generation, while the LLM operates as a separate enrichment layer for selected alerts.
 
 ---
 
