@@ -23,10 +23,16 @@ Endpoints → Wazuh Agents → Wazuh Manager → alerts.json → Alert Selection
   ---
 
   ## Technologies Used
-  - Wazuh SIEM
-  - Python
-  - Ollama (LLaMA 3)
+  
+  - Wazuh SIEM 4.12.0
+  - Python 3
+  - Ollama runtime
+  - LLaMA 3 8B ('llama3:Latest')
+  - GGUF Q4_0 quantisation
   - Oracle VirtualBox
+  - Kali Linux (attacker system)
+  - Fedora Linux (monitored Linux endpoint)
+  - Windows 11 Education (monitored Windows endpoint)
  
   ---
 
