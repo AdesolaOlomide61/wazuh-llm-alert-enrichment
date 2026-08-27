@@ -1,0 +1,12 @@
+[Unit]
+Description=Wazuh LLM Bridge
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /opt/wazuh-llm-bridge/wazuh_llm_bridge.py
+WorkingDirectory=/opt/wazuh-llm-bridge
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target
